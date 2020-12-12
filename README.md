@@ -10,3 +10,4 @@
   - https://www.home-assistant.io/docs/installation/docker/
   - `sudo docker run -d --name="home-assistant" -v
  /home/bradyasheehan/homeassistant:/config -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/home-assistant:stable`
+- Naviate to http://localhost:8123/
