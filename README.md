@@ -11,7 +11,7 @@
       sudo apt-key fingerprint 0EBFCD88
       sudo add-apt-repository “deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable”
       sudo apt-get update
-    ```
+      ```
     - `sudo apt-get -y install docker-ce || exit 1`
 - `sudo docker pull homeassistant/home-assistant`
 - run the container with auto restart
